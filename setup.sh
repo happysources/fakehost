@@ -4,7 +4,7 @@ GIT_OWNER="https://github.com/happysources"
 GIT_REPO="fakehost"
 
 TMP_DIR="/tmp/${GIT_REPO}"
-INST_DIR="/usr/bin/"
+INST_DIR="/usr/bin"
 
 echo "start ... "
 echo
