@@ -80,8 +80,8 @@ sudo mkdir -p $INST_DIR
 echo "done."
 
 echo -n "* script install ... "
-cp -v ${GIT_REPO}/${GIT_REPO}.py $INST_DIR/${GIT_REPO}; 
-chmod 755 ${INST_DIR}/${GIT_REPO};
+sudo cp -v ${GIT_REPO}/${GIT_REPO}.py $INST_DIR/${GIT_REPO}; 
+sudo chmod 755 ${INST_DIR}/${GIT_REPO};
 echo "done."
 
 echo -n "* clean ... "
